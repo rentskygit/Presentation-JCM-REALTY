@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JCM Realty Group</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; }
+  body {
+    background: linear-gradient(135deg, #0d1b3e 0%, #1a3a6b 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .card {
+    background: #ffffff;
+    max-width: 480px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    overflow: hidden;
+    text-align: center;
+  }
+  .header {
+    background: linear-gradient(135deg, #0d1b3e, #1a3a6b);
+    padding: 30px 20px 70px;
+    color: white;
+  }
+  .header h1 { font-size: 26px; letter-spacing: 1px; }
+  .header p { font-size: 14px; opacity: 0.85; margin-top: 5px; }
+  .foto {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    object-fit: cover;
+    margin-top: -70px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    background: #ddd;
+  }
+  .contenido { padding: 20px 30px 35px; }
+  .nombre { font-size: 22px; color: #0d1b3e; font-weight: bold; margin-top: 12px; }
+  .cargo { color: #c9a227; font-weight: 600; font-size: 14px; margin-bottom: 15px; }
+  .descripcion { color: #444; font-size: 15px; line-height: 1.6; margin-bottom: 20px; }
+  .info-box {
+    background: #f4f6fb;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .info-box p { margin: 8px 0; }
+  .info-box strong { color: #0d1b3e; }
+  .botones { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+  .btn {
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background: #0d1b3e;
+    transition: 0.3s;
+    display: inline-block;
+  }
+  .btn.wa { background: #25D366; }
+  .btn:hover { opacity: 0.85; transform: translateY(-2px); }
+  .footer { font-size: 11px; color: #888; padding-bottom: 15px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <h1>JCM REALTY GROUP</h1>
+      <p>Bienes Raíces de Confianza</p>
+    </div>
+
+    <!-- Reemplaza la URL de la foto -->
+    <img class="foto" src="https://imgur.com/uSMr5a2" alt="Foto del dueño">
+
+    <div class="contenido">
+      <div class="nombre">Juan Melo</div>
+      <div class="cargo">Fundador & Agente Principal</div>
+
+      <p class="descripcion">
+        En JCM Realty Group nos dedicamos a ayudarte a encontrar el hogar
+        perfecto. Más de 10 años de experiencia en el mercado
+        inmobiliario, brindando un servicio personalizado y confiable.
+      </p>
+
+      <div class="info-box">
+        <p><strong>📍 Dirección:</strong> Peabody </p>
+        <p><strong>📞 Teléfono:</strong> +1 (781) 670-4893</p>
+        <p><strong>✉️ Correo:</strong> jmelo@jcmrealtygroup.com</p>
+        <!-- <p><strong>🌐 Web:</strong> www.jcmrealty.com</p> -->
+      </div>
+
+      <div class="botones">
+        <a class="btn wa" href="https://wa.me/17816704893" target="_blank">WhatsApp</a>
+        <a class="btn" href="tel:+17816704893">Llamar</a>
+      </div>
+    </div>
+
+    <div class="footer">© 2025 JCM Realty Group · Todos los derechos reservados</div>
+  </div>
+</body>
+</html>
